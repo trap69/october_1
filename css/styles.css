@@ -1,0 +1,49 @@
+.container {
+	width: 90%;
+	margin:0 auto;
+	height: 500px;
+	background-color: rgba(230, 190, 150, 1);
+}
+/*article {
+	background-color: yellow;
+	text-align: center;
+	box-sizing: 200px, 200px;
+	display: block;
+	vertical-align: block;
+
+}*/
+div div{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 180px;
+	margin:0 auto;
+
+
+}
+div div:nth-child(1){
+	background-color: yellow;
+	float: right;
+
+}
+div div:nth-child(2){
+	background-color: #f12af2;
+	float: none;
+
+}
+div div:nth-child(3){
+	background-color: red;
+
+
+}
+div div:nth-child(4){
+	background-color: gray;
+	float: right;
+
+
+}
+div div:nth-child(5){
+	background-color: #f12af3;
+
+}
+
