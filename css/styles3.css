@@ -1,0 +1,46 @@
+.section {
+	background-color: white;
+}
+header * {
+	display: inline-block;
+	list-style: none;
+	color: gray;
+	list-style: none;
+	text-decoration: none;
+	outline-style: none;
+	margin: 0;
+}
+a {
+	list-style: none;
+	text-decoration: none;
+	outline-style: none;
+	color: gray;
+	right: 50%;
+}
+main {
+	text-align: center;
+	background-color: #b8b8b8;
+	alignment-baseline: absolute;
+}
+article {
+	width: 200px;
+	height: 200px;
+	alignment-baseline: auto; 
+	display: inline-block;
+	background-color: white;
+}
+main div a{
+	background-color: #8e9091;
+	color: black;
+}
+footer {
+	height: 300px;
+	background-color: #fff2f2;
+}
+article:nth-child(2){
+	background-color: black;
+	left:200px;
+	bottom: 0;
+	top: 20%;
+	line-height: 40px;
+}
