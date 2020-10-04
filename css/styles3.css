@@ -1,46 +1,110 @@
 .section {
-	background-color: white;
+
+	font-family: Arial, Hel	vetica, sans-serif;
 }
 header * {
 	display: inline-block;
 	list-style: none;
-	color: gray;
+	color: #4a4a4a;
 	list-style: none;
 	text-decoration: none;
 	outline-style: none;
-	margin: 0;
+	margin: 5;
+	top: 100%;
 }
-a {
-	list-style: none;
-	text-decoration: none;
-	outline-style: none;
-	color: gray;
-	right: 50%;
+h1 {
+	padding-top: 20;
+	padding-left: 20%;
 }
+ul{ 
+	float: right;
+	padding: 20px;
+	padding-right: 20%;
+}
+li {
+	padding: 10px;
+}
+
 main {
+	position: absolute;
+	color: white;
+	padding: 5%;
+	padding-bottom: 10%;
 	text-align: center;
-	background-color: #b8b8b8;
-	alignment-baseline: absolute;
+	background-color: #929292;
+	position: absolute;
+	height: 20%;
+	width: 100%;
+	margin-bottom: 10px;
+
 }
-article {
-	width: 200px;
-	height: 200px;
-	alignment-baseline: auto; 
-	display: inline-block;
-	background-color: white;
+.slogan { 
+            margin-bottom: 50px;
 }
 main div a{
-	background-color: #8e9091;
-	color: black;
+	position: center;
+	padding: 10px;
+	border-radius: 100px 100px;
+	border-color: none;
+	background-color: #878787;
+	color: white;
+	padding-right: 40px;
+	padding-left: 40px;
+	top: 45%;
+	right: 45%;
+	width: 6%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
 }
-footer {
-	height: 300px;
-	background-color: #fff2f2;
+a {
+	color: #4a4a4a;
+	list-style: none;
+	text-decoration: none;
+	outline-style: none;
+	right: 50%;
+}
+article {	
+	margin-top: 5em;
+ 	position: center;
+  	bottom: 40px;
+  	right: 40px; 	
+	display: inline-block;
+	height: 250px;
+	width: 15%;
+	background-color: white;
+	padding: 90px;
+	text-align: center;
+	color: #4a4a4a;
+	margin:auto;
+	margin-right: 25px;
+    -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 1px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+
+}
+article i{
+	font-size: 50px;
 }
 article:nth-child(2){
-	background-color: black;
-	left:200px;
-	bottom: 0;
-	top: 20%;
-	line-height: 40px;
+	float: inline-start;
+
 }
+article:nth-child(5){
+	float: inline-end;
+
+}
+
+/*article {
+	box-sizing: 200px;
+	margin-left: auto;
+  	margin-right: auto;
+	display: inline-block;
+	width: 200px;
+	height: 350px;
+	background-color: white;
+	text-align: left;
+	color: #4a4a4a;
+}
+
