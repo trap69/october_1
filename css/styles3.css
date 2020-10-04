@@ -67,14 +67,16 @@ a {
 }
 article {	
 	margin-top: 5em;
- 	position: center;
-  	bottom: 40px;
-  	right: 40px; 	
+ 	position: center; 	
 	display: inline-block;
 	height: 250px;
 	width: 15%;
 	background-color: white;
+	margin: 50px;
+	padding-top: 30px;
 	padding: 90px;
+	padding-right: 5px;
+	padding-left: 5px;
 	text-align: center;
 	color: #4a4a4a;
 	margin:auto;
